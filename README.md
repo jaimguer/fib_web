@@ -11,9 +11,11 @@ will install Flask 0.12.2.  If you don't want your currently installed Python pa
 From the directory containing fib.py, run
 ```python fib.py &```.
 This will start the service on your local machine, running on port 5000 in the background.  To hit the endpoint, run
-```curl -i localhost:5000/fib/5```
+```curl -i localhost:5000/fib/<some positive integer>```
 
-This will return
+Integers less than 1, or any non integer values will return an error.
+
+As an example, `curl -i localhost:5000/fib/5` will return
 ```
 $ curl -i localhost:5000/fib/5
 127.0.0.1 - - [21/Dec/2017 21:54:07] "GET /fib/5 HTTP/1.1" 200 -
