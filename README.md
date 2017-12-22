@@ -1,6 +1,6 @@
 
 # Fib_Web
-Provides a ReST API to calculate the first n Fibonacci numbers, using Python and Flask.
+Provides a web service to calculate the first n Fibonacci numbers, using Python and Flask.
 
 # Prerequisites
 Ensure your system has at least Python 2.7 installed.  This was developed on a machine running 2.7.10.  Assuming you have pip installed,
