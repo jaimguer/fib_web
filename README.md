@@ -8,10 +8,8 @@ Ensure your system has at least Python 2.7 installed.  This was developed on a m
 will install Flask 0.12.2.  If you don't want your currently installed Python packages touched, consider setting up a virtualenv.
 
 # Running and Using
-From the directory containing fib.py, run
-```python fib.py &```.
-This will start the service on your local machine, running on port 5000 in the background.  To hit the endpoint, run
-```curl -i localhost:5000/fib/<some positive integer>```
+From the directory containing fib.py, run ```python fib.py &```.
+This will start the service on your local machine, running on port 5000 in the background.  To hit the endpoint, run ```curl -i localhost:5000/fib/<some positive integer>```.
 
 Integers less than 1, or any non integer values will return an error.
 
